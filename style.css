@@ -50,6 +50,10 @@ body {
     width: 190px;
     height: 190px;
 }
+.clock .sec{
+    width: 230px;
+    height: 230px;
+}
 .hour::before {
     content: "";
     position: absolute;
@@ -67,5 +71,15 @@ body {
     height: 90px;
     background: #fd03be;
     z-index: 2;
+    border-radius: 6px 6px 0 0;
+}
+
+.sec::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height:150px;
+    background: #17fb02;
+    z-index: 3;
     border-radius: 6px 6px 0 0;
 }
